@@ -1,2 +1,2 @@
 # swift-weather
-Swift Weather
+Swift Weather uses OpenWeather and DarkSky Rest API to fetch the current weather
