@@ -1,6 +1,7 @@
 import XCTest
 @testable import swift_weather
 
+@available(OSX 10.12, *)
 final class swift_weatherTests: XCTestCase {
     func testOpenWeather() {
         let api = OpenWeather(apiKey: "your_api_key")

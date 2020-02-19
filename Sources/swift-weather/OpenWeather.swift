@@ -11,6 +11,7 @@ import Foundation
 //https://cocoacasts.com/working-with-nsurlcomponents-in-swift
 //https://developer.apple.com/documentation/foundation/jsondecoder
 
+@available(OSX 10.12, *)
 public class OpenWeather : ProviderAPI{
     
     public var temperature : String? = nil

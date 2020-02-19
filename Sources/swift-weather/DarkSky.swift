@@ -10,7 +10,7 @@ import Foundation
 //https://gist.github.com/cmoulton/7ddc3cfabda1facb040a533f637e74b8
 //https://cocoacasts.com/working-with-nsurlcomponents-in-swift
 //https://developer.apple.com/documentation/foundation/jsondecoder
-
+@available(OSX 10.12, *)
 public class DarkSky : ProviderAPI{
     
     public var temperature : String? = nil
